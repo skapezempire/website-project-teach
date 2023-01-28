@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.logo{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.nav-link a{
+    text-decoration: none;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    font-size: 1.2em;
+
+}
+
+li{
+    list-style: none;
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-link li a{
+    transition: .3s;
+}
+
+.nav-link li a:hover{
+    color: gold;
+
+}
+
+button{
+    background-color: gold;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 4px;
+padding: 9px 25px;
+margin-right:20px;
+
+
+
+
+}
+
+
+button:hover{
+
+    color:aliceblue;
+    background-color: rgba(255,215,0,0.9);
+}
+
+header{
+
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: black;
+   width: 100%;
+}
+
+
+
+/* hero section */
+
+.hero-sec{
+
+    background-image: url(images/icon.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+body{
+    background-image: url(images/bg.png);
+}
+
+#sub-text{
+
+    margin:30px 0;
+}
+
+
+
+.card_body{
+
+    background-color: gold;
+    width:300px;
+   height: 500px;
+margin-top: 10px;
+
+margin-left: 20px;
+border-radius: 20px;
+box-shadow: 10px 10px 40px #aaa;
+
+}
+
+
+.card_image{
+
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#card_product, h1{
+    padding-top: 10px;
+
+
+}
+
+#card_sub{
+
+    text-align: center;
+    padding-top: 20px;
+    margin:0 20px;
+    font-weight: lighter;
+    line-height: 1.5em;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#sale_btn{
+
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.propic{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.profile{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 40px #aaa;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+h5{
+    color:rgb(59,59,59);
+}
+
+h3{
+    color:rgb(87,87,87);
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    line-height: 1.5em;
+    text-align: justify;
+    row-gap: 20px;
+    padding: 0 40px;
+   
+
+}
+
+ion-icon{
+ width: 25px;
+ height: 25px;
+ cursor: pointer;
+ margin-top: 40px;
+
+}
+
+ion-icon:hover{
+    color:gold;
+}
+
+
+.socials{
+    display: flex;
+    column-gap: 20px;
+}
+
+
+.collab{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.profile:hover{
+    background-color: gold;
+}
+
+.profile ion-icon:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    margin-top: 50px;
+    padding-top: 70px;
+    width: 100%;
+
+
+}
+
+li, p{
+    color: white;
+}
+
+.soc ion-icon{
+    color: white;
+}
+
+.soc ion-icon:hover{
+    color: gold;
+}
+
+
+.ft_one{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.ft_two{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+footer li a:hover{
+    color: gold;
+}
+
+.extras{
+    text-align: center;
+}
+
+.logo{
+    width: 6em;
+    height: 6em;
+}
+
+li:hover{
+color: gold;
+}
+
+
